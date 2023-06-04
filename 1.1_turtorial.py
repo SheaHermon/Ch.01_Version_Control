@@ -8,28 +8,25 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
+Lightsaber=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
+screen.bgcolor('blue') # colors the screen
+screen.screensize(500,500)
+Lightsaber.speed(1)
+Lightsaber.shape("turtle")
+Lightsaber.color("black")
+Lightsaber.fillcolor("grey")
+Lightsaber.penup()
+Lightsaber.goto(225,400)
+Lightsaber.pendown()
+Lightsaber.forward(20)
+Lightsaber.right(50)
+Lightsaber.back(20)
+Lightsaber.left(50)
 
 
-yoda.write('Sign Your Name Here',font=("Arial", 16, "normal")) # signs your name to your art
+
+
+
+Lightsaber.write('Shea Hermon',font=("Arial", 16, "normal")) # signs your name to your art
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
