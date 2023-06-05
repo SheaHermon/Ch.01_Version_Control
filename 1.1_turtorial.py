@@ -12,7 +12,7 @@ Lightsaber=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
 screen.bgcolor('blue') # colors the screen
 screen.screensize(250,250)
-Lightsaber.speed(5)
+Lightsaber.speed(25)
 Lightsaber.shape("turtle")
 Lightsaber.color("black")
 Lightsaber.fillcolor("grey")
@@ -81,9 +81,44 @@ Lightsaber.circle(5,180)
 Lightsaber.forward(50)
 Lightsaber.end_fill()
 Lightsaber.penup()
+Lightsaber.goto(0,-150)
+Lightsaber.pencolor("black")
+Lightsaber.pendown()
+Lightsaber.left(90)
+Lightsaber.forward(50)
+Lightsaber.right(90)
+Lightsaber.forward(15)
+Lightsaber.penup()
+Lightsaber.goto(4,-140)
+Lightsaber.pendown()
+Lightsaber.left(90)
+Lightsaber.forward(30)
+Lightsaber.penup()
+Lightsaber.goto(8, -140)
+Lightsaber.pendown()
+Lightsaber.forward(30)
+Lightsaber.penup()
+Lightsaber.goto(12, -140)
+Lightsaber.pendown()
+Lightsaber.forward(30)
+Lightsaber.penup()
+Lightsaber.goto(-2,-85)
+Lightsaber.pendown()
+Lightsaber.fillcolor("Black")
+Lightsaber.begin_fill()
+Lightsaber.circle(4)
+Lightsaber.penup()
+Lightsaber.end_fill()
+Lightsaber.goto(100,100)
+Lightsaber.right(90)
+
+
 
 
 
 
 Lightsaber.write('Shea Hermon',font=("Arial", 16, "normal")) # signs your name to your art
+Lightsaber.goto(80,90)
+Lightsaber.pendown()
+Lightsaber.forward(125)
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
